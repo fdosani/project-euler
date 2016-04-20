@@ -40,6 +40,7 @@ print smallest_multiple(10)
 
 
 #nicer method
+#http://codereview.stackexchange.com/questions/67938/project-euler-5-lowest-multiple-of-1-through-20
 def lowest_common_multiple(nfrom, nto):
     lcm = nfrom
     for i in range(nfrom, nto+1):
